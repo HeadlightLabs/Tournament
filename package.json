@@ -1,0 +1,13 @@
+{
+  "name": "mars-challenge-bot",
+  "version": "1.0.0",
+  "description": "Centaurus A's Headlight Challenge Submission",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Centaurus A",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
