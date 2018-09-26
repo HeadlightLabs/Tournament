@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69D7B7161EC4AC369A1E62F6 /* Pods_Mars_Mining_ChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9E76096AFEDDBE1CB03E31 /* Pods_Mars_Mining_ChallengeTests.framework */; };
+		96543D5E8787C1D3DB5FEF2B /* Pods_Mars_Mining_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7390B14C0BAE41CBC1F1FA0 /* Pods_Mars_Mining_Challenge.framework */; };
+		AB3B27B6214D555C00ACD212 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B27B5214D555C00ACD212 /* AppDelegate.swift */; };
+		AB3B27B8214D555C00ACD212 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B27B7214D555C00ACD212 /* ViewController.swift */; };
+		AB3B27BB214D555C00ACD212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3B27B9214D555C00ACD212 /* Main.storyboard */; };
+		AB3B27BD214D555D00ACD212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3B27BC214D555D00ACD212 /* Assets.xcassets */; };
+		AB3B27C0214D555D00ACD212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3B27BE214D555D00ACD212 /* LaunchScreen.storyboard */; };
+		AB3B27CB214D555E00ACD212 /* Mars_Mining_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B27CA214D555E00ACD212 /* Mars_Mining_ChallengeTests.swift */; };
+		AB7F5B45214D5B650067CC87 /* MiningNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7F5B44214D5B650067CC87 /* MiningNetwork.swift */; };
+		ABE22A49214D71500020D748 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE22A48214D71500020D748 /* Constants.swift */; };
+		ABE22A4C214D7A0D0020D748 /* MiningResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE22A4B214D7A0D0020D748 /* MiningResponse.swift */; };
+		ABE22A4E214D7A280020D748 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE22A4D214D7A280020D748 /* Location.swift */; };
+		ABE22A50214D7A870020D748 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE22A4F214D7A870020D748 /* Status.swift */; };
+		ABE22A52214D7B030020D748 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE22A51214D7B030020D748 /* Node.swift */; };
+		ABE22A55214D820B0020D748 /* MiningAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE22A54214D820B0020D748 /* MiningAlgorithm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB3B27C7214D555E00ACD212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB3B27AA214D555C00ACD212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB3B27B1214D555C00ACD212;
+			remoteInfo = "Mars Mining Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2366FA6E50FF307482A7F4F1 /* Pods-Mars Mining Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mars Mining Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mars Mining Challenge/Pods-Mars Mining Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		6CE58BB2DD89EE42821F4626 /* Pods-Mars Mining ChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mars Mining ChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mars Mining ChallengeTests/Pods-Mars Mining ChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78657C817A485532323A5E18 /* Pods-Mars Mining Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mars Mining Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mars Mining Challenge/Pods-Mars Mining Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		A7E7134EC026AC1ECE90A972 /* Pods-Mars Mining ChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mars Mining ChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mars Mining ChallengeTests/Pods-Mars Mining ChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB3B27B2214D555C00ACD212 /* Mars Mining Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mars Mining Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3B27B5214D555C00ACD212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB3B27B7214D555C00ACD212 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB3B27BA214D555C00ACD212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB3B27BC214D555D00ACD212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB3B27BF214D555D00ACD212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB3B27C1214D555D00ACD212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB3B27C6214D555E00ACD212 /* Mars Mining ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mars Mining ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3B27CA214D555E00ACD212 /* Mars_Mining_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mars_Mining_ChallengeTests.swift; sourceTree = "<group>"; };
+		AB3B27CC214D555E00ACD212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7F5B44214D5B650067CC87 /* MiningNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiningNetwork.swift; sourceTree = "<group>"; };
+		ABE22A48214D71500020D748 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ABE22A4B214D7A0D0020D748 /* MiningResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiningResponse.swift; sourceTree = "<group>"; };
+		ABE22A4D214D7A280020D748 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		ABE22A4F214D7A870020D748 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		ABE22A51214D7B030020D748 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		ABE22A54214D820B0020D748 /* MiningAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiningAlgorithm.swift; sourceTree = "<group>"; };
+		BF9E76096AFEDDBE1CB03E31 /* Pods_Mars_Mining_ChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mars_Mining_ChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7390B14C0BAE41CBC1F1FA0 /* Pods_Mars_Mining_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mars_Mining_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB3B27AF214D555C00ACD212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96543D5E8787C1D3DB5FEF2B /* Pods_Mars_Mining_Challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3B27C3214D555E00ACD212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D7B7161EC4AC369A1E62F6 /* Pods_Mars_Mining_ChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB3B27A9214D555C00ACD212 = {
+			isa = PBXGroup;
+			children = (
+				AB3B27B4214D555C00ACD212 /* Mars Mining Challenge */,
+				AB3B27C9214D555E00ACD212 /* Mars Mining ChallengeTests */,
+				AB3B27B3214D555C00ACD212 /* Products */,
+				CC2B1C048A0FD74FD71A8D23 /* Pods */,
+				E99B49B2B76721E53A2D4DAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB3B27B3214D555C00ACD212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B27B2214D555C00ACD212 /* Mars Mining Challenge.app */,
+				AB3B27C6214D555E00ACD212 /* Mars Mining ChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB3B27B4214D555C00ACD212 /* Mars Mining Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				ABE22A53214D81EC0020D748 /* Algorithm */,
+				ABE22A4A214D79EC0020D748 /* Models */,
+				ABE22A47214D713F0020D748 /* Constants */,
+				AB7F5B43214D5AD90067CC87 /* Network */,
+				AB3B27B5214D555C00ACD212 /* AppDelegate.swift */,
+				AB3B27B7214D555C00ACD212 /* ViewController.swift */,
+				AB3B27B9214D555C00ACD212 /* Main.storyboard */,
+				AB3B27BC214D555D00ACD212 /* Assets.xcassets */,
+				AB3B27BE214D555D00ACD212 /* LaunchScreen.storyboard */,
+				AB3B27C1214D555D00ACD212 /* Info.plist */,
+			);
+			path = "Mars Mining Challenge";
+			sourceTree = "<group>";
+		};
+		AB3B27C9214D555E00ACD212 /* Mars Mining ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B27CA214D555E00ACD212 /* Mars_Mining_ChallengeTests.swift */,
+				AB3B27CC214D555E00ACD212 /* Info.plist */,
+			);
+			path = "Mars Mining ChallengeTests";
+			sourceTree = "<group>";
+		};
+		AB7F5B43214D5AD90067CC87 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AB7F5B44214D5B650067CC87 /* MiningNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		ABE22A47214D713F0020D748 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				ABE22A48214D71500020D748 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		ABE22A4A214D79EC0020D748 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABE22A4B214D7A0D0020D748 /* MiningResponse.swift */,
+				ABE22A4D214D7A280020D748 /* Location.swift */,
+				ABE22A4F214D7A870020D748 /* Status.swift */,
+				ABE22A51214D7B030020D748 /* Node.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABE22A53214D81EC0020D748 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				ABE22A54214D820B0020D748 /* MiningAlgorithm.swift */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		CC2B1C048A0FD74FD71A8D23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78657C817A485532323A5E18 /* Pods-Mars Mining Challenge.debug.xcconfig */,
+				2366FA6E50FF307482A7F4F1 /* Pods-Mars Mining Challenge.release.xcconfig */,
+				6CE58BB2DD89EE42821F4626 /* Pods-Mars Mining ChallengeTests.debug.xcconfig */,
+				A7E7134EC026AC1ECE90A972 /* Pods-Mars Mining ChallengeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E99B49B2B76721E53A2D4DAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7390B14C0BAE41CBC1F1FA0 /* Pods_Mars_Mining_Challenge.framework */,
+				BF9E76096AFEDDBE1CB03E31 /* Pods_Mars_Mining_ChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB3B27B1214D555C00ACD212 /* Mars Mining Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3B27CF214D555E00ACD212 /* Build configuration list for PBXNativeTarget "Mars Mining Challenge" */;
+			buildPhases = (
+				19AD4016A1571A85B949CFFC /* [CP] Check Pods Manifest.lock */,
+				AB3B27AE214D555C00ACD212 /* Sources */,
+				AB3B27AF214D555C00ACD212 /* Frameworks */,
+				AB3B27B0214D555C00ACD212 /* Resources */,
+				4BE8AC5AED5D5C5CF1B5F734 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mars Mining Challenge";
+			productName = "Mars Mining Challenge";
+			productReference = AB3B27B2214D555C00ACD212 /* Mars Mining Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB3B27C5214D555E00ACD212 /* Mars Mining ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3B27D2214D555E00ACD212 /* Build configuration list for PBXNativeTarget "Mars Mining ChallengeTests" */;
+			buildPhases = (
+				7CD465A3975A0F0CBDEFD971 /* [CP] Check Pods Manifest.lock */,
+				AB3B27C2214D555E00ACD212 /* Sources */,
+				AB3B27C3214D555E00ACD212 /* Frameworks */,
+				AB3B27C4214D555E00ACD212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB3B27C8214D555E00ACD212 /* PBXTargetDependency */,
+			);
+			name = "Mars Mining ChallengeTests";
+			productName = "Mars Mining ChallengeTests";
+			productReference = AB3B27C6214D555E00ACD212 /* Mars Mining ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB3B27AA214D555C00ACD212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Orion Nebula";
+				TargetAttributes = {
+					AB3B27B1214D555C00ACD212 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					AB3B27C5214D555E00ACD212 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AB3B27B1214D555C00ACD212;
+					};
+				};
+			};
+			buildConfigurationList = AB3B27AD214D555C00ACD212 /* Build configuration list for PBXProject "Mars Mining Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB3B27A9214D555C00ACD212;
+			productRefGroup = AB3B27B3214D555C00ACD212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB3B27B1214D555C00ACD212 /* Mars Mining Challenge */,
+				AB3B27C5214D555E00ACD212 /* Mars Mining ChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB3B27B0214D555C00ACD212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3B27C0214D555D00ACD212 /* LaunchScreen.storyboard in Resources */,
+				AB3B27BD214D555D00ACD212 /* Assets.xcassets in Resources */,
+				AB3B27BB214D555C00ACD212 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3B27C4214D555E00ACD212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19AD4016A1571A85B949CFFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mars Mining Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BE8AC5AED5D5C5CF1B5F734 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mars Mining Challenge/Pods-Mars Mining Challenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ModelMapper/Mapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mars Mining Challenge/Pods-Mars Mining Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CD465A3975A0F0CBDEFD971 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mars Mining ChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB3B27AE214D555C00ACD212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE22A4C214D7A0D0020D748 /* MiningResponse.swift in Sources */,
+				AB3B27B8214D555C00ACD212 /* ViewController.swift in Sources */,
+				ABE22A55214D820B0020D748 /* MiningAlgorithm.swift in Sources */,
+				ABE22A50214D7A870020D748 /* Status.swift in Sources */,
+				ABE22A52214D7B030020D748 /* Node.swift in Sources */,
+				AB7F5B45214D5B650067CC87 /* MiningNetwork.swift in Sources */,
+				AB3B27B6214D555C00ACD212 /* AppDelegate.swift in Sources */,
+				ABE22A4E214D7A280020D748 /* Location.swift in Sources */,
+				ABE22A49214D71500020D748 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3B27C2214D555E00ACD212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3B27CB214D555E00ACD212 /* Mars_Mining_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB3B27C8214D555E00ACD212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB3B27B1214D555C00ACD212 /* Mars Mining Challenge */;
+			targetProxy = AB3B27C7214D555E00ACD212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB3B27B9214D555C00ACD212 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3B27BA214D555C00ACD212 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB3B27BE214D555D00ACD212 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3B27BF214D555D00ACD212 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB3B27CD214D555E00ACD212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB3B27CE214D555E00ACD212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB3B27D0214D555E00ACD212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78657C817A485532323A5E18 /* Pods-Mars Mining Challenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJYFTX722N;
+				INFOPLIST_FILE = "Mars Mining Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmsmith.Mars-Mining-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB3B27D1214D555E00ACD212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2366FA6E50FF307482A7F4F1 /* Pods-Mars Mining Challenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJYFTX722N;
+				INFOPLIST_FILE = "Mars Mining Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmsmith.Mars-Mining-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB3B27D3214D555E00ACD212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE58BB2DD89EE42821F4626 /* Pods-Mars Mining ChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJYFTX722N;
+				INFOPLIST_FILE = "Mars Mining ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmsmith.Mars-Mining-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mars Mining Challenge.app/Mars Mining Challenge";
+			};
+			name = Debug;
+		};
+		AB3B27D4214D555E00ACD212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E7134EC026AC1ECE90A972 /* Pods-Mars Mining ChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJYFTX722N;
+				INFOPLIST_FILE = "Mars Mining ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmsmith.Mars-Mining-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mars Mining Challenge.app/Mars Mining Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB3B27AD214D555C00ACD212 /* Build configuration list for PBXProject "Mars Mining Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3B27CD214D555E00ACD212 /* Debug */,
+				AB3B27CE214D555E00ACD212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3B27CF214D555E00ACD212 /* Build configuration list for PBXNativeTarget "Mars Mining Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3B27D0214D555E00ACD212 /* Debug */,
+				AB3B27D1214D555E00ACD212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3B27D2214D555E00ACD212 /* Build configuration list for PBXNativeTarget "Mars Mining ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3B27D3214D555E00ACD212 /* Debug */,
+				AB3B27D4214D555E00ACD212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB3B27AA214D555C00ACD212 /* Project object */;
+}

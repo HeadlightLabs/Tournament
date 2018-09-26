@@ -1,0 +1,29 @@
+PODS:
+  - Alamofire (4.7.3)
+  - ModelMapper (8.0.0)
+  - RxCocoa (4.2.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ModelMapper
+  - RxCocoa
+  - RxSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ModelMapper
+    - RxCocoa
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  ModelMapper: a258c5f8e1422e0e826c8265a3e89ae1b329c3a6
+  RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+
+PODFILE CHECKSUM: 905929c694ce849c775208e07fba9047742e3c4a
+
+COCOAPODS: 1.5.3
