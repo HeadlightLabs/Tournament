@@ -1,0 +1,12 @@
+{
+  "name": "Perses-cool-bot",
+  "version": "1.0.0",
+  "description": "A mining bot for the colony drone developer challenge.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "author": "Perses",
+  "license": "ISC"
+}
