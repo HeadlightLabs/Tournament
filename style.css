@@ -1,0 +1,89 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(rgb(226, 66, 66), rgba(166, 190, 78, 0.6));
+    background: url(bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: calc(100vh - 50px);
+    color: white;
+}
+
+p {
+    font-family: "Suez One", serif;
+}
+
+h1 {
+    text-decoration: underline;
+    font-family: "Bungee", cursive;
+    margin: 2px;
+}
+
+.main-wrapper {
+    padding: 10px 50px;
+    display: flex;
+}
+
+.titles {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-grid {
+    background-color: rgba(208, 139, 218, 0.5);
+    width: 600px;
+    height: 600px;
+    position: relative;
+    margin: 20px auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 0 0 20px rgb(221, 221, 221);
+}
+
+.node {
+    background: rgba(196, 57, 2, 0.623);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+
+    border: 1px solid black;
+}
+
+.bot {
+    background: rgba(113, 5, 163, 0.651);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    opacity: 0.5;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition-duration: 1s;
+    z-index: 2;
+}
+
+#nodeinfo,
+#botinfo {
+    width: 300px;
+}
+
+#nodeinfo h4,
+#botinfo h4 {
+    font-weight: 400;
+    color: rgb(255, 140, 110);
+}
+
+.legend {
+    width: 300px;
+    height: 30px;
+    align-items: center;
+}
+
+.legend p {
+    padding-left: 40px;
+}
