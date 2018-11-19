@@ -1,0 +1,1 @@
+{"version":3,"sources":["/Users/adamtal/projects/mars-discovery-tournament-atal/src/components/SVGGrid/style.scss"],"names":[],"mappings":"AAAA,KACE,YAAa,AACb,cAAe,CAChB,AAED,gBACE,cAAkB,CACnB","file":"main.6c7b5cf5.chunk.css","sourcesContent":["line {\n  stroke: black;\n  stroke-width: 5;\n}\n\n.bot-claim-line {\n  stroke: lightgreen;\n}\n"]}
