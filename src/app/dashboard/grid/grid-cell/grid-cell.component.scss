@@ -1,0 +1,30 @@
+.mining-cell {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+.bot {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  z-index: 10;
+}
+
+.node {
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  z-index: 1;
+
+  .node-value {
+    padding-left: 2px;
+  }
+}
+
+.last-visited-text {
+  position: absolute;
+  display: inline-block;
+  top: 3px;
+  left: 3px;
+}

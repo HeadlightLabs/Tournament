@@ -1,0 +1,11 @@
+<div class="container-fluid">
+  <ng-container *ngIf="grid">
+    <div *ngFor="let row of grid" class="grid-row">
+      <div class="grid-cell border border-success" *ngFor="let cell of row">
+        <app-grid-cell [bot]="cell.bot"
+                       [node]="cell.node"
+                       [lastVisited]="cell.lastVisited"></app-grid-cell>
+      </div>
+    </div>
+  </ng-container>
+</div>

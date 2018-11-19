@@ -1,0 +1,12 @@
+<div class="mining-cell" [ngStyle]="{backgroundColor: getCellBg()}">
+  <span class="last-visited text-info text-center" *ngIf="lastVisited" title="Last Visit: {{ lastVisited }}">
+    <i class="fa fa-sm fa-info"></i>
+  </span>
+  <div *ngIf="bot" class="bot">
+    <i class="fab fa-2x fa-android" [ngClass]="getBotClass()" [title]="bot.id"></i>
+  </div>
+  <div *ngIf="node" class="node">
+    <i class="fab fa-2x fa-codepen text-warning"></i>
+    <span class="value" class="node-value" [ngClass]="getNodeValueClass()">{{ node.value }}</span>
+  </div>
+</div>
